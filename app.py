@@ -109,7 +109,7 @@ if len(sys.argv) > 1 and len(sys.argv) < 3:
     if mode == "production":
         import bjoern
         host = "0.0.0.0"
-        port = 5000
+        port = 5005
         print("Running in production mode")
         bjoern.run(app, host, port)
     elif mode == "testing":
