@@ -1,7 +1,5 @@
-from os import stat
 import mariadb
 from flask import Flask, request, Response
-from werkzeug.wrappers import response
 import dbcreds
 import json
 import sys
